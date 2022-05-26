@@ -1,0 +1,25 @@
+.legal-information{
+    background-color: $buttonBorder;
+    padding: 87px 0 87px 0;
+    @media (max-width: $md2+px){
+        padding: 50px 0 50px 0;
+    }
+    @media (max-width: $md3+px){
+        text-align: center;
+    }
+    color: $white;
+    h2{
+        font-size: 3.75rem;
+        @media (max-width: $md3+px){
+            font-size: 1.875rem;
+        }
+    }
+    p{
+        font-size: 1.25rem;
+        margin-top: 10px;
+        @media (max-width: $md3+px){
+            font-size: 1rem;
+        }
+    }
+}
+
